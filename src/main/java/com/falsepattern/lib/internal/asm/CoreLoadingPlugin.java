@@ -51,7 +51,7 @@ public class CoreLoadingPlugin implements IFMLLoadingPlugin {
         Share.LOG.info("Removing skill issues...");
         try {
             Class.forName("thermos.Thermos");
-            Share.LOG.fatal("Sorry, i prefer iced coffee.");
+            Share.LOG.info("Sorry, i prefer iced coffee.");
             throw skillIssue("Thermos is not supported by FalsePatternLib, please use a normal forge server.");
         } catch (ClassNotFoundException ignored) {
         }
