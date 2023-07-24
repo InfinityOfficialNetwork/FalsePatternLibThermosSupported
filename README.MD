@@ -1,3 +1,37 @@
+THIS PROJECT IS DEAD UNTIL THE FOLLOWING ISSUE IS FIXED!
+
+`[09:25:59] [main/ERROR]: Error transforming cpw.mods.fml.common.registry.GameData with FmlRegistry: can't find 4095 constant in any method
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: java.lang.reflect.InvocationTargetException
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:43)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:12)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: Caused by: java.lang.NoClassDefFoundError: cpw/mods/fml/common/registry/GameData
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.Class.getDeclaredMethods0(Native Method)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.Class.privateGetMethodRecursive(Class.java:3048)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.Class.getMethod0(Class.java:3018)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.Class.getMethod(Class.java:1784)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.launcher.FMLDeobfTweaker.injectIntoClassLoader(FMLDeobfTweaker.java:40)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	... 6 more
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: Caused by: java.lang.ClassNotFoundException: cpw.mods.fml.common.registry.GameData
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	... 14 more
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: Caused by: com.falsepattern.endlessids.asm.AsmTransformException: can't find 4095 constant in any method
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.falsepattern.endlessids.asm.transformer.FmlRegistry.transform(FmlRegistry.java:36)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.falsepattern.endlessids.asm.IETransformer.transform(IETransformer.java:74)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176)
+[09:25:59] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	... 16 more`
+
+
+
 A library for 1.7.10 with lots of useful stuff, licensed under the LGPLv3 license.
 
 | Package                                                         | Contents / Purpose                                                                                                                      |
